@@ -1,0 +1,176 @@
+/*********** TAG SELECTORS ************/
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  margin: 40px auto 0 auto;
+  /* can use rem if you want rember to divide by 16** */
+  font-family: 'Sacramento', cursive;
+  /* 100% == 16px, 90px/16 = 5.63 * 100 = 563% */
+  /* 1em == 16px, used to be known as 1em == width of 'M' */
+  /* 1em == 16px, 90px/16 == 5.63 or 5.63em. */
+  font-size: 5.63rem;
+  color: #66BFBF;
+  line-height: 2;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  /* 1rem == 16px, 40px/16px = 2.5, or 2.5rem; */
+  font-size: 2.5rem;
+  color: #66BFBF;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+p {
+  color: #40514E;
+}
+
+hr {
+  border-style: dotted none none;
+  border-top: dotted;
+  width: 10%;
+  border-width: 10px;
+  border-color: #EAF6F6;
+  opacity: .90;
+  margin: 100px auto;
+}
+
+/*********** CLASS SELECTORS *************/
+.top-container {
+  background-color: #90303d;
+  margin: 0;
+  position: relative;
+  padding-top: 100px;
+}
+
+.developer-text {
+  font-weight: normal;
+}
+
+.cloud_1 {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.cloud_2 {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.middle-container {
+  margin-top: 100px;
+}
+
+.profile {
+  width: 30%;
+  margin: auto auto 30px auto;
+  line-height: 2;
+}
+
+.profile-image {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+.skill-row {
+  /* 1rem == 16px or 100% */
+  width: 50%;
+  position: relative;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+/*
+.skill-row img {
+  width: 30%;
+  float: left;
+  margin-right: 30px;
+}
+*/
+.football-gif {
+  width: 30%;
+  float: left;
+  margin: 30px;
+}
+
+.penguin-hello {
+  border-radius: 50%;
+  width: 30%;
+  margin-left: 30px;
+  float: right;
+}
+
+.contact-me {
+  margin: 100px auto;
+  line-height: 2;
+  width: 40%;
+}
+
+/*
+.skill-row p {
+  clear: both;
+}
+*/
+.contact-btn {
+  box-shadow: 0px 0px 0px 2px #66BFBF;
+	background:linear-gradient(to bottom, #66BFBF 5%, #66BFBF 100%);
+	background-color: #66BFBF;
+	border-radius:10px;
+	border:1px solid #66BFBF;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Verdana;
+	font-size:15px;
+	padding:8px 15px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #66BFBF;
+  margin-top: 30px;
+}
+
+.contact-btn:hover {
+  background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+	background-color:#EAF6F6;
+}
+
+.contact-btn:active {
+  position:relative;
+	top:1px;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0px;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+  text-align: center;
+}
+
+/********* ID SELECTORS ******************/
