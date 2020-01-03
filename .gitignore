@@ -1,0 +1,5 @@
+#This is all the stuff in the gitignore file that I want to ignore.
+
+.DS_Store
+
+
